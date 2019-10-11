@@ -15,3 +15,12 @@ def hitung_kecepatan(jarak, waktu):
 kecepatan = hitung_kecepatan(1000, 5 * 60)
 kecepatan = hitung_kecepatan(3000, 70 * 60 )
 
+def hitung_tegangan(arus, hambatan):
+    tegangan = arus * hambatan
+    print(f'Arus = {arus / 5}ampere diperoleh dari hambatan = {hambatan / 10}ohm')
+    print(f'sehingga tegangan = {tegangan} V')
+
+# arus = 5
+# hambatan = 10
+tegangan = hitung_tegangan(5,10)
+tegangan = hitung_tegangan(10,20)
